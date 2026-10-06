@@ -1,0 +1,26 @@
+[project]
+name = "logistic-gpt"
+version = "0.1.0"
+description = "logistic-gpt"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb==1.5.9",
+    "docx2txt==0.9",
+    "fastapi==0.136.3",
+    "jinja2==3.1.6",
+    "langchain==1.3.2",
+    "langchain-chroma==1.1.0",
+    "langchain-core==1.4.0",
+    "langchain-google-genai==4.2.4",
+    "langchain-tavily==0.2.18",
+    "langchain-text-splitters==1.1.2",
+    "langgraph==1.2.2",
+    "langgraph-checkpoint-sqlite==3.1.0",
+    "pypdf==6.12.2",
+    "python-dotenv==1.2.2",
+    "python-multipart==0.0.29",
+    "sqlalchemy==2.0.50",
+    "tavily-python==0.7.24",
+    "uvicorn==0.48.0",
+]
